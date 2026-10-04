@@ -149,3 +149,4 @@ coffee-shop/
 │  └─ seed.sql           локал туршилтын өгөгдөл
 └─ turbo.json
 ```
+# application
