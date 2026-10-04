@@ -1,0 +1,11 @@
+{
+  "printWidth": 110,
+  "bracketSameLine": true,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": ["apps/mobile/**", "packages/shared/**"],
+      "options": { "singleQuote": true }
+    }
+  ]
+}

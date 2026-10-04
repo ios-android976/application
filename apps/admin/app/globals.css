@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --color-page: #faf7f3;
+  --color-surface: #ffffff;
+  --color-muted: #f3ece3;
+  --color-line: #eae2d8;
+  --color-ink: #2b1d14;
+  --color-ink-muted: #7d6b5d;
+  --color-brand: #6f4e37;
+  --color-brand-hover: #5a3e2b;
+  --color-latte: #c8a27c;
+  --color-espresso: #24180f;
+  /* Single-series chart fill, validated for chroma and contrast on white */
+  --color-chart: #9c5a2e;
+  --color-chart-hover: #b5713f;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+}

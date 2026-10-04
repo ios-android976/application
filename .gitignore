@@ -1,0 +1,15 @@
+node_modules/
+.turbo/
+.DS_Store
+*.tsbuildinfo
+
+# env files
+.env
+.env*.local
+
+# Supabase local state
+supabase/.branches
+supabase/.temp
+
+# Vercel
+.vercel
